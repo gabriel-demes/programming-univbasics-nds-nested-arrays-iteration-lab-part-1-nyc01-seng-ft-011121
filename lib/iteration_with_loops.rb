@@ -4,8 +4,8 @@ def find_even_values(src)
   # Output all even values in each nested array
   src.each {|x|
     src[x].each {|t|
-      if ((src[x][t] % 2) == 0)
-        puts src[x][t]
+      if ((t) % 2) == 0)
+        puts t
       end}
     }
 end
